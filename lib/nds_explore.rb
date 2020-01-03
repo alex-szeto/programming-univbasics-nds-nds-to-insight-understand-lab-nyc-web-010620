@@ -11,7 +11,9 @@ end
 
 def print_first_directors_movie_titles
   movies_list = directors_database[0][:movies]
-  movies_list.each{
+  movies_list.each_with_index{ |element, index| 
+    puts 
+  }
     puts 
   }
 end
